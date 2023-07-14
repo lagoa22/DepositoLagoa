@@ -1,0 +1,27 @@
+@media (max-width: 740px) {
+
+    #texto_imgs_baixo{
+    font-size: 14px;
+}
+  
+  .cell-carbono {
+  margin-left: -18px;
+  font-size: 14px;
+}
+  
+  .cabecalho {
+    background: lightsteelblue;
+    width: 97%;
+    height: 115px;
+    margin-top: -27px;
+    margin-left: 3px;
+    border-radius: 0px 0px 86px 86px;
+}
+
+.imagem-div img {
+  width: 117%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+}

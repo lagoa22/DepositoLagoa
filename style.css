@@ -1,12 +1,16 @@
         @charset "UTF-8";
         @import url(div_lista.css);
+        @import url(links-maps.css);
+        @import url(config-cell.css);
          :root {
             --cor-sombra: rgba(15, 86, 145, 0.45);
+            --cor-body:#b3c6de21;
+            --cor-text:#030303;
         }
         
         body {
             font-family: 'Comfortaa', cursive;
-            background: #b3c6de21;
+            background: var(--cor-body);
         }
         
         .cabecalho {
@@ -151,3 +155,32 @@
             text-align: -webkit-center;
             margin: 0 0 46px 0;
         }
+
+        @media (max-width: 740px) {
+
+            #texto_imgs_baixo{
+            font-size: 14px;
+        }
+          
+          .cell-carbono {
+          margin-left: -18px;
+          font-size: 14px;
+        }
+          
+          .cabecalho {
+            background: lightsteelblue;
+            width: 97%;
+            height: 115px;
+            margin-top: -27px;
+            margin-left: 3px;
+            border-radius: 0px 0px 86px 86px;
+        }
+        
+        .imagem-div img {
+          width: 117%;
+          height: auto;
+          border-radius: 10px;
+          object-fit: cover;
+        }
+        }
+        
