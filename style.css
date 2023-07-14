@@ -232,4 +232,14 @@ body {
     .tramontina {
         transform: translate(-22%, 1%);
     }
+    .div-imgs .p_text {
+        position: absolute;
+        /* Define a posição absoluta para o parágrafo */
+        top: 0;
+        /* Posiciona o parágrafo no topo da div */
+        left: 0;
+        /* Posiciona o parágrafo no lado esquerdo da div */
+        z-index: 1;
+        /* Define a ordem de empilhamento (maior valor fica acima) */
+    }
 }
