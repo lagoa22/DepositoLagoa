@@ -243,6 +243,9 @@ body {
         /* Define a ordem de empilhamento (maior valor fica acima) */
     }
     .div-imgs {
+        position: relative;
+    }
+    .div-imgs::before {
         content: "";
         top: 0;
         left: 0;
