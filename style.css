@@ -145,10 +145,6 @@ body {
     margin-top: 50px;
 }
 
-.img_votomassa {
-    margin-top: 35px;
-}
-
 .centro_txt {
     text-align: center;
 }
@@ -177,7 +173,7 @@ body {
         margin-top: 35px;
     }
     #texto_imgs_baixo {
-        font-size: 14px;
+        font-size: 13px;
     }
     .imagem-div div:hover #texto_imgs_baixo {
         font-size: 14px;
@@ -196,15 +192,15 @@ body {
         border-radius: 0px 0px 86px 86px;
     }
     .imagem-div img {
-        width: 117%;
+        width: 101%;
         height: auto;
         border-radius: 10px;
         object-fit: cover;
+        transform: translate(5%, 1%);
     }
     .vedalit {
         width: 154%;
-        margin: 14px 0px 8px -16px;
-        ;
+        margin: 37px 0px -20px -3px;
     }
     .imagem-div div:hover {
         transform: none;
@@ -230,7 +226,7 @@ body {
         transition: opacity 0.3s;
     }
     .tramontina {
-        transform: translate(-22%, 1%);
+        transform: translate(5%, 1%);
     }
     .div-imgs .p_text {
         position: absolute;
@@ -252,5 +248,31 @@ body {
         height: auto;
         background-color: rgba(255, 255, 255, 0.5);
         z-index: 2;
+    }
+    .carrinho_tramontina {
+        height: 20%;
+    }
+    .votoran_h {
+        height: 185px;
+    }
+    .arga_h {
+        height: 185px;
+    }
+    .txt-votomassa {
+        margin-top: 31%;
+        margin-top: 18px;
+    }
+    .location-hr {
+        width: 11%;
+        margin: 0 0 -32px 0px;
+    }
+    .contact-hr {
+        width: 11%;
+        margin: -33px 0px -16px 89%;
+    }
+    .maps {
+        position: absolute;
+        right: 6%;
+        bottom: -110%;
     }
 }
