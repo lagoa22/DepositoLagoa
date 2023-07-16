@@ -276,3 +276,10 @@ body {
         bottom: -107%;
     }
 }
+
+@media (max-width: 307px) {
+    .maps {
+        margin-left: -6px;
+        bottom: -192%;
+    }
+}
