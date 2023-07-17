@@ -168,7 +168,13 @@ body {
     margin: 50px 0 -50px 0px;
 }
 
-@media (max-width: 393px) {
+.div_contact {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -8%;
+}
+
+@media screen and (max-width: 760px) {
     .vedacit {
         margin-top: 35px;
     }
@@ -280,6 +286,18 @@ body {
 @media (max-width: 307px) {
     .maps {
         margin-left: -6px;
-        bottom: -271%;
+        position: relative;
+        border: 1px solid #ccc;
+        border-radius: 25px;
+    }
+    .seta {
+        margin: 0px;
+        text-align: center;
+    }
+    .div_contact {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        margin-top: 10px;
     }
 }
