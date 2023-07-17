@@ -279,13 +279,13 @@ body {
         position: absolute;
         right: auto;
         margin-left: 42px;
-        bottom: -107%;
+        bottom: -4vw;
     }
 }
 
 @media (max-width: 307px) {
     .maps {
-        margin-left: -6px;
+        margin-left: -4vw;
         position: relative;
         border: 1px solid #ccc;
         border-radius: 25px;
